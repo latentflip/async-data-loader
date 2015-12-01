@@ -1,0 +1,22 @@
+{
+  "name": "async-data-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "babel ./modules --loose all -d lib --ignore '__tests__'",
+    "postinstall": "node ./npm-scripts/postinstall.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "0.14.x",
+    "react-router": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel": "^6.1.18",
+    "babel-cli": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18"
+  }
+}
