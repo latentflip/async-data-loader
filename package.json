@@ -5,6 +5,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "build": "babel ./modules --loose all -d lib --ignore '__tests__'",
+    "prepublish": "npm run build",
     "postinstall": "node ./npm-scripts/postinstall.js"
   },
   "author": "",
